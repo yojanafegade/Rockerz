@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rockerz</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    //aos animations links
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logo"><img src="logof.png" alt="logo" /></div>
+      <ul class="nav_items">
+        <li class="nav_subitems"><a href="#">Home</a></li>
+        <li class="nav_subitems"><a href="#">Products</a></li>
+
+        <li class="nav_subitems"><a href="#">About</a></li>
+        <li class="nav_subitems"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="headphone_info">
+        <h1 data-aos="zoom-in-up" class="main_heading">Find your perfect sound signature with</h1>
+        <p data-aos="zoom-in-up" class="rockerz">ROCKERZ</p>
+        <div class="btn">Explore</div>
+      </div>
+
+      <div data-aos="fade-left" class="headphone-img"></div>
+    </div>
+    <div class="moreinfo">
+      Introducing our stylish and comfortable headphones, perfect for music
+      lovers on the go. With a dynamic driver type and impedance of 32 ohms, our
+      headphones provide exceptional clarity and bass response. Our
+      noise-canceling technology blocks out external sounds, allowing you to
+      enjoy your music or calls without any distractions.
+    </div>
+
+    <div class="main-2">
+      <div class="h-2"><p class="products_head">Products</p></div>
+
+      <div class="card-container">
+        <div data-aos="zoom-in-up" class="card">
+          <div class="card-img">
+            <img src="headset.jpg" alt="Image 1" />
+          </div>
+          <div class="card-info">
+            <h2>Headsets</h2>
+            <p>Card Description</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in-up" class="card">
+          <div class="card-img">
+            <img src="airdopes.jpg" alt="Image 2" />
+          </div>
+          <div class="card-info">
+            <h2>Airdopes</h2>
+            <p>Card Description</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in-up" class="card">
+          <div class="card-img">
+            <img src="wired.jpg" alt="Image 3" />
+          </div>
+          <div class="card-info">
+            <h2>Wired</h2>
+            <p>Card Description</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="btn-2">More Products</div>
+    </div>
+    <div class="main3">
+      <div class="h-3"><p class="reviews_head">Reviews</p></div>
+      <div class="container-3">
+        <!-- <div class="illustration">
+          <img src="ill.png" alt="illustration">
+
+
+        </div> -->
+
+        <div class="review-form">
+          <div class="review-form">
+            <h2 class="review-head">Write a Review</h2>
+            <form action="" method="post">
+              <label for="name"></label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter Name"
+                required
+              />
+
+              <label for="email"></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter email"
+                required
+              />
+
+              <label for="rating"></label>
+              <select
+                id="rating"
+                name="rating"
+                placeholder="Enter rating"
+                required
+              >
+                <option value="">Select a rating</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Star</option>
+              </select>
+
+              <label for="comment"></label>
+              <textarea
+                id="comment"
+                name="comment"
+                rows="5"
+                placeholder="Enter Comment"
+                required
+              ></textarea>
+
+              <input class="submit-btn" type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

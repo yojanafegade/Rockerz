@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+body {
+  background-image: url(bg.png);
+  background-size: 100%;
+}
+.nav {
+  color: white;
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: rgba(248, 236, 252, 0.2) 0px 7px 29px 0px;
+  margin-top: -18px;
+  position: fixed;
+  z-index: 1;
+  background-color: ;
+}
+.nav_items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.15rem;
+  z-index: 1;
+}
+.logo img {
+  position: absolute;
+  margin-left: -61rem;
+  margin-top: -1rem;
+  height: 2rem;
+  width: 3rem;
+  z-index: 2;
+}
+.logo img:hover {
+  filter: drop-shadow(5px 5px 10px #bf98db);
+}
+li a,
+.nav_subitems {
+  text-decoration: none;
+  color: white;
+}
+li a:hover {
+  color: #fdc4e6;
+}
+.nav_items li {
+  padding-right: 60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.headphone-img {
+  background-image: url(headphone_img.png);
+  background-size: cover;
+  height: 31rem;
+  width: 33rem;
+  margin-right: 13rem;
+  filter: drop-shadow(5px 5px 10px #5b029a);
+  margin-top: 8rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.headphone-img:hover {
+  filter: drop-shadow(8px 8px 13px #bd60ff);
+  transform: scale(1.03);
+}
+.headphone_info {
+  height: 30rem;
+  width: 26rem;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+
+.main_heading {
+  color: white;
+  font-family: "Asap", sans-serif;
+  font-size: 3.5rem;
+  padding: 1.5rem;
+}
+.rockerz {
+  color: white;
+  font-family: "Asap", sans-serif;
+  font-size: 4.9rem;
+  padding: 1.5rem;
+  margin-top: -30px;
+  filter: drop-shadow(5px 5px 10px #ec6cfd);
+}
+.btn,
+.btn-2,
+.submit-btn {
+  /* background: orangered; */
+  border: 1px solid rgb(255, 0, 242);
+  background-color: #fd7fc8;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline block;
+  font-family: "Asap", sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  border-radius: 34px;
+  width: 8rem;
+  cursor: pointer;
+  margin-left: 29px;
+}
+
+.btn:hover,
+.btn-2:hover,
+.submit-btn:hover {
+  color: rgb(231, 231, 231);
+  background: rgb(170, 0, 255);
+  filter: drop-shadow(5px 5px 10px #d510ef);
+}
+.btn:hover:after {
+  width: 100%;
+}
+.moreinfo {
+  height: 7rem;
+  width: 37rem;
+  color: white;
+  margin-top: -68px;
+  margin-left: 10rem;
+  border-bottom: 2px solid white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 19rem;
+  margin-bottom: 14rem;
+  color: white;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+  height: 25rem;
+  border: 1px solid #000000;
+  margin: 4rem 4rem;
+  border-radius: 10px;
+
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px,
+    rgba(254, 254, 255, 0.1) 0px 8px 24px,
+    rgba(246, 246, 246, 0.1) 0px 16px 56px;
+
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: scale(1.3);
+}
+.card-img img {
+  height: 14rem;
+  width: 20rem;
+}
+
+.card-info {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-info h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.buy-btn {
+  background-color: #ad4caf;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: transform 0.2s ease;
+  font-size: 1rem;
+}
+
+.buy-btn:hover {
+  color: rgb(231, 231, 231);
+  background: rgb(170, 0, 255);
+
+  filter: drop-shadow(5px 5px 10px #d510ef);
+  transform: scale(1.1);
+}
+.h-2 {
+  margin-top: -3rem;
+  margin-left: 44rem;
+  color: white;
+  position: absolute;
+  font-size: 2rem;
+  border-bottom: 2px solid white;
+}
+
+.h-2:hover {
+  filter: drop-shadow(5px 5px 10px #ec6cfd);
+}
+.btn-2 {
+  position: absolute;
+  margin-top: -10rem;
+  margin-left: 44rem;
+  width: fit-content;
+  padding: 8px;
+}
+.h-3 {
+  color: white;
+  font-size: 2rem;
+  border-bottom: 2px solid white;
+  margin-left: 44rem;
+  position: absolute;
+  margin-top: 2rem;
+}
+.h-3:hover {
+  filter: drop-shadow(5px 5px 10px #ec6cfd);
+}
+/* .container-3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+} */
+/* .illustration{
+    height: 30rem;
+    width: 25rem;
+
+    
+} */
+
+/* review form css */
+.review-form {
+  width: 50rem;
+  margin: 97px auto;
+  padding: 20px;
+
+  /* border: 1px solid #dddddd; */
+}
+
+.review-head {
+  margin-top: 0;
+  color: white;
+  margin-left: 17.3rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #575353;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 100px;
+  background-color: #ffffff;
+}
+
+input[type="submit"] {
+  margin-left: 18rem;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(170, 0, 255);
+  filter: drop-shadow(5px 5px 10px #d510ef);
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+#rating {
+  color: rgb(84, 74, 74);
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
